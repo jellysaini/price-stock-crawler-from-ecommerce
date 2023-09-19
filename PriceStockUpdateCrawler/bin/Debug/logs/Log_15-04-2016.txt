@@ -1,0 +1,16 @@
+-------------------START-------------4/15/2016 1:46:16 PM
+Source :Snapdeal Desc Update Issue Product_ID :- 46 Master_Product_ID:- 46
+The request was aborted: The connection was closed unexpectedly.
+-------------------END-------------4/15/2016 1:46:16 PM
+-------------------START-------------4/15/2016 1:46:18 PM
+Source :Snapdeal Desc Update Issue Product_ID :- 46 Master_Product_ID:- 46
+The request was aborted: The connection was closed unexpectedly.
+-------------------END-------------4/15/2016 1:46:18 PM
+-------------------START-------------4/15/2016 1:46:20 PM
+Source :Snapdeal Desc Update Issue Product_ID :- 46 Master_Product_ID:- 46
+The request was aborted: The connection was closed unexpectedly.
+-------------------END-------------4/15/2016 1:46:20 PM
+-------------------START-------------4/15/2016 1:46:22 PM
+Source :Snapdeal Desc Update Issue Product_ID :- 46 Master_Product_ID:- 46
+The request was aborted: The connection was closed unexpectedly.
+-------------------END-------------4/15/2016 1:46:22 PM

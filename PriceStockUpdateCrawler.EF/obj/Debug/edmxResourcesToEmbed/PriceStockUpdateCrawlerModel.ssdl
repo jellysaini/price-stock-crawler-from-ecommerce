@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="G2S101Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tblMasterProduct">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SKU" Type="varchar" MaxLength="250" />
+    <Property Name="BrandID" Type="bigint" />
+    <Property Name="BrandName" Type="varchar" MaxLength="500" />
+    <Property Name="CategoryID" Type="bigint" />
+    <Property Name="CategoryName" Type="varchar" MaxLength="500" />
+    <Property Name="SubCategoryID" Type="bigint" />
+    <Property Name="SubCategoryName" Type="varchar" MaxLength="500" />
+    <Property Name="ProductName" Type="varchar" MaxLength="500" />
+    <Property Name="SearchTags" Type="varchar(max)" />
+    <Property Name="Highlights" Type="varchar" MaxLength="2000" />
+    <Property Name="SingleLineSearch" Type="varchar" MaxLength="1000" />
+    <Property Name="IsOnline" Type="bit" />
+    <Property Name="ThumbnailURL" Type="varchar(max)" />
+    <Property Name="ImageURL" Type="varchar" MaxLength="2000" />
+    <Property Name="Description" Type="varchar(max)" />
+    <Property Name="Sellers" Type="varchar" MaxLength="500" />
+    <Property Name="CreatedOn" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblProducts">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MasterProductID" Type="bigint" />
+    <Property Name="Price" Type="decimal" Precision="30" Scale="0" />
+    <Property Name="Discount" Type="int" />
+    <Property Name="Description" Type="varchar(max)" />
+    <Property Name="MemberID" Type="bigint" />
+    <Property Name="ProductUrl" Type="varchar(max)" />
+    <Property Name="InStock" Type="bit" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+  </EntityType>
+  <EntityContainer Name="G2S101ModelStoreContainer">
+    <EntitySet Name="tblMasterProduct" EntityType="Self.tblMasterProduct" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblProducts" EntityType="Self.tblProducts" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

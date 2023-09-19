@@ -1,0 +1,10 @@
+F:\Project Work\Project\2016\PriceStockUpdateCrawler\PriceStockUpdateCrawler.EF\bin\Debug\PriceStockUpdateCrawler.EF.dll.config
+F:\Project Work\Project\2016\PriceStockUpdateCrawler\PriceStockUpdateCrawler.EF\bin\Debug\PriceStockUpdateCrawler.EF.dll
+F:\Project Work\Project\2016\PriceStockUpdateCrawler\PriceStockUpdateCrawler.EF\bin\Debug\PriceStockUpdateCrawler.EF.pdb
+F:\Project Work\Project\2016\PriceStockUpdateCrawler\PriceStockUpdateCrawler.EF\bin\Debug\EntityFramework.dll
+F:\Project Work\Project\2016\PriceStockUpdateCrawler\PriceStockUpdateCrawler.EF\bin\Debug\EntityFramework.SqlServer.dll
+F:\Project Work\Project\2016\PriceStockUpdateCrawler\PriceStockUpdateCrawler.EF\bin\Debug\EntityFramework.xml
+F:\Project Work\Project\2016\PriceStockUpdateCrawler\PriceStockUpdateCrawler.EF\bin\Debug\EntityFramework.SqlServer.xml
+F:\Project Work\Project\2016\PriceStockUpdateCrawler\PriceStockUpdateCrawler.EF\obj\Debug\PriceStockUpdateCrawler.EF.dll
+F:\Project Work\Project\2016\PriceStockUpdateCrawler\PriceStockUpdateCrawler.EF\obj\Debug\PriceStockUpdateCrawler.EF.pdb
+F:\Project Work\Project\2016\PriceStockUpdateCrawler\PriceStockUpdateCrawler.EF\obj\Debug\PriceStockUpdateCrawler.EF.csprojResolveAssemblyReference.cache
